@@ -89,7 +89,7 @@ resource "aws_security_group" "pesca360_sg" {
 }
 
 resource "aws_instance" "web_instance" {
-  ami           = "ami-0b5eea76982371e91"
+  ami           = "ami-00c39f71452c08778"
   instance_type = "t2.micro"
   key_name      = "my-website-server"
 
